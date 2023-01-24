@@ -1,4 +1,4 @@
-package ca.bcit.comp1510.ch07;
+package ca.bcit.comp1510.lab09;
 
 /**
  * Immutable Complex number type.

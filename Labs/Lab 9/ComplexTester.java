@@ -1,4 +1,4 @@
-package ca.bcit.comp1510.ch07;
+package ca.bcit.comp1510.lab09;
 
 /**
  * Driver to exercise the use of multiple Complex objects. Includes tests for
@@ -88,7 +88,7 @@ public class ComplexTester {
     private static void testFunctions(Complex z1, Complex z2) {
         final double piDiv4 = Math.PI / 4.0;
         final Complex minusOne = Complex.ZERO.subtract(Complex.ONE);
-        final Complex πi = new Complex(0.0, Math.PI);
+        final Complex pi = new Complex(0.0, Math.PI);
         System.out.println("abs(" + z1 + ") = " + z1.abs()
                + "\nabs(" + Complex.I + ") = " + Complex.I.abs()
                + "\narg(" + z2 + ") = " + z2.arg() 
@@ -106,7 +106,7 @@ public class ComplexTester {
                + "\nlog(" + z2 + ") = " + z2.log()
                + "\nexp(log(" + z2 + ")) = " + z2.log().exp()
                + "\nlog(exp(" + z2 + ")) = " + z2.exp().log()
-               + "\nexp(πi) + 1 = " + πi.exp().add(Complex.ONE)
+               + "\nexp(πi) + 1 = " + pi.exp().add(Complex.ONE)
 
         );
     }
