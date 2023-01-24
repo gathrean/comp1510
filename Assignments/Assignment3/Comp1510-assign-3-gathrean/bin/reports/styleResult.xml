@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.0">
+<file name="/Users/ean/Documents/CST/comp1510/Assignments/Assignment3/Comp1510-assign-3-gathrean/src/q1/Address.java">
+</file>
+<file name="/Users/ean/Documents/CST/comp1510/Assignments/Assignment3/Comp1510-assign-3-gathrean/src/q1/Course.java">
+</file>
+<file name="/Users/ean/Documents/CST/comp1510/Assignments/Assignment3/Comp1510-assign-3-gathrean/src/q1/Student.java">
+</file>
+<file name="/Users/ean/Documents/CST/comp1510/Assignments/Assignment3/Comp1510-assign-3-gathrean/src/q1/TestCourse.java">
+</file>
+<file name="/Users/ean/Documents/CST/comp1510/Assignments/Assignment3/Comp1510-assign-3-gathrean/src/q2/Timesheet.java">
+</file>
+<file name="/Users/ean/Documents/CST/comp1510/Assignments/Assignment3/Comp1510-assign-3-gathrean/src/q2/TimesheetRow.java">
+</file>
+<file name="/Users/ean/Documents/CST/comp1510/Assignments/Assignment3/Comp1510-assign-3-gathrean/src/q3/MIXChar.java">
+</file>
+<file name="/Users/ean/Documents/CST/comp1510/Assignments/Assignment3/Comp1510-assign-3-gathrean/src/q3/Message.java">
+</file>
+<file name="/Users/ean/Documents/CST/comp1510/Assignments/Assignment3/Comp1510-assign-3-gathrean/src/q3/TestMIXChar.java">
+</file>
+</checkstyle>
