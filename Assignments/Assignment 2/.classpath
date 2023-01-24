@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="COMP1510-assign-2-gathrean/src"/>
-	<classpathentry kind="lib" path="COMP1510-assign-2-gathrean/lib/checkstyle-10.0-all.jar"/>
-	<classpathentry kind="output" path="bin"/>
-</classpath>
