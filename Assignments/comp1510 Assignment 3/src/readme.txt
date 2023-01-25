@@ -1,22 +1,20 @@
-[Student Name], [Student ID], [Set], [Date]
+Gathrean Dela Cruz, A, November 26 2022
 
-This assignment is [enter percent]% complete.
+This assignment is 100% complete.
+
+
+------------------------
+Question one (TestCourse) status:
+
+Complete
 
 
 ------------------------
-Question one (Timesheet) status:
+Question two (Timesheet) status:
 
-[complete or not complete]
-[explanation if not complete, what is working/not working]
-
-------------------------
-Question two (Exponential) status:
-
-[complete or not complete]
-[explanation if not complete, what is working/not working]
+Complete
 
 ------------------------
 Question three (TestMIXChar) status:
 
-[complete or not complete]
-[explanation if not complete, what is working/not working]
+Complete

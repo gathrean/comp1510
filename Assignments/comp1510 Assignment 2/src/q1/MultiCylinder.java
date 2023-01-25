@@ -1,22 +1,38 @@
 package q1;
 
 /**
- * <p>This is where you put your description about what this class does. You
- * don't have to write an essay but you should describe exactly what it does.
- * Describing it will help you to understand the programming problem better.</p>
+ * Driver class for the Cylinder constructor class. Instantiates and updates two
+ * Cylinder objects. Prints radius, height, final volume, and surface area of
+ * each cylinder.
  *
- * @author Your Name goes here
+ * @author Gathrean Dela Cruz
  * @version 1.0
  */
 public class MultiCylinder {
     /**
-     * <p>This is the main method (entry point) that gets called by the JVM.</p>
+     * <p>
+     * Main method for creating the two Cylinder objects.
+     * </p>
      *
-     * @param args command line arguments.
+     * @param args unused
      */
+
     public static void main(String[] args) {
-        // Replace following with your code here!!!
-        System.out.println("Question one was called and ran sucessfully.");
+
+        double radius1 = 2 + 2;
+        double radius2 = 2 + 1;
+
+        double height1 = 2 + 2 + 2;
+        double height2 = 2 + 1 + 2;
+        Cylinder cylinder1 = new Cylinder(radius1, height1);
+
+        Cylinder cylinder2 = new Cylinder(radius2, height2);
+
+        System.out.println("Cylinder 1:");
+        System.out.println(cylinder1);
+
+        System.out.println("\nCylinder 2:");
+        System.out.println(cylinder2);
     }
 
 }

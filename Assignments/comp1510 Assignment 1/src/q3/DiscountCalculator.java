@@ -1,11 +1,14 @@
 package q3;
 
+import java.util.Scanner;
+
 /**
- * This is where you put your description about what this class does. You don't
- * have to write an essay but you should describe exactly what it does.
- * Describing it will help you to understand the programming problem better.
- *
- * @author Your Name goes here
+ * A Java program that calculates a discount for a cheese club. The discount
+ * depends on the customer's number of cheeses purchased and the number of new
+ * customers referred by the customer. The discount is in percent and equals the
+ * sum of the number of cheeses and referrals but cannot exceed 75%.
+ * 
+ * @author Gathrean Dela Cruz
  * @version 1.0
  */
 public class DiscountCalculator {
@@ -16,8 +19,26 @@ public class DiscountCalculator {
      * @param args command line arguments.
      */
     public static void main(String[] args) {
-        // Replace this and following with your code!!!
-        System.out.println("Question three was called and ran sucessfully.");
+
+        final int seventyFive = 75;
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Cheese Club Discount Calculator.");
+
+        System.out.print("How much cheese?:   -> ");
+        int cheese = scan.nextInt();
+
+        System.out.print("How many referrals?: -> ");
+        int referral = scan.nextInt();
+
+        int added = cheese + referral;
+
+        int compare = Math.min(added, seventyFive);
+
+        System.out.println("Your discount is: " + compare + "%.");
+
+        scan.close();
     }
 
 }
